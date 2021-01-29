@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">WeChatUI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wechat">微信</string>
+    <string name="phone">通讯录</string>
+    <string name="find">发现</string>
+    <string name="me">我</string>
+    <string name="righttag"><![CDATA[>]]></string>
+    <string name="search">搜索</string>
+    <string name="add">加号</string>
+    <string name="wechatPay">支付</string>
+    <string name="collect">收藏</string>
+    <string name="album">相册</string>
+    <string name="cardPackage">卡包</string>
+    <string name="expression">表情</string>
+    <string name="setting">设置</string>
+    <string name="UsernameAndSafe">账号与安全</string>
+    <string name="YouthMode">青少年模式</string>
+    <string name="NewMessage">新消息提醒</string>
+    <string name="QuiteMode">勿扰模式</string>
+    <string name="Chat">聊天</string>
+    <string name="Privacy">隐私</string>
+    <string name="Common">通用</string>
+    <string name="AboutWeChat">关于微信</string>
+    <string name="Help">帮助与反馈</string>
+    <string name="Plugin">插件</string>
+    <string name="Quit">退出</string>
+    <string name="Unopen">未开启></string>
+    <string name="wechat_login">登录</string>
+    <string name="wechat_register">注册</string>
+    <string name="chahao">╳</string>
+    <string name="phonelogin">手机号登录</string>
+    <string name="nation">国家/地区</string>
+    <string name="China">中国大陆（+86）</string>
+    <string name="phonenumber">手机号</string>
+    <string name="writephone">请填写手机号</string>
+    <string name="nextstep">下一步</string>
+    <string name="phoneregister">手机号注册</string>
+    <string name="name">昵称</string>
+    <string name="password">密码</string>
+    <string name="writepassword">请填写微信密码</string>
+    <string name="headimage">头像</string>
+    <string name="wechat_number">微信号</string>
+    <string name="sex">性别</string>
+    <string name="friendcircle">朋友圈</string>
+    <string name="title_activity_friend_circle">FriendCircleActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>

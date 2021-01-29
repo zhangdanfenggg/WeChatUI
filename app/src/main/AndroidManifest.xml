@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wechatui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeChatUI">
+        <!--编辑写朋友圈界面-->
+        <activity android:name=".WriteTextActivity"
+            android:label="发布文字">
+            <intent-filter>
+                <action android:name="WriteText" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--朋友圈界面-->
+        <activity
+            android:name=".FriendCircleActivity"
+            android:label="朋友圈">
+            <intent-filter>
+                <action android:name="FriendCircle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--显示个人信息界面-->
+        <activity
+            android:name=".PersonMessageActivity"
+            android:label="个人信息">
+            <intent-filter>
+                <action android:name="person_message" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--选择头像界面-->
+        <activity android:name=".ImageSelectActivity">
+            <intent-filter>
+                <action android:name="imageselect" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 注册界面 -->
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="register" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- 登录界面 -->
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- 程序最开始启动页 -->
+        <activity android:name=".LoginRegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 程序主界面 -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="main_page" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 设置界面 -->
+        <activity
+            android:name=".SettingActivity"
+            android:label="设置">
+            <intent-filter>
+                <action android:name="setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginRegisterActivity"
+    android:background="@drawable/wechat_login"
+    >
+    <Button
+        android:id="@+id/wechat_login"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:text="@string/wechat_login"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+    <Button
+        android:id="@+id/wechat_register"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:text="@string/wechat_register"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/wechat_login"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

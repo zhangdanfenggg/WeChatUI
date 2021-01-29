@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DownFragment"
+    android:background="#B4D5C3C3"
+    app:layout_constraintBottom_toBottomOf="parent"
+    >
+
+    <TextView
+        android:id="@+id/bottom_wechat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wechat"
+        android:textSize="25sp"
+        android:textColor="#4CAF50"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/bottom_phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+        android:id="@+id/bottom_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@id/bottom_wechat"
+        app:layout_constraintRight_toLeftOf="@id/bottom_find"
+        app:layout_constraintBaseline_toBaselineOf="@id/bottom_wechat"
+        />
+    <TextView
+        android:id="@+id/bottom_find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toRightOf="@id/bottom_phone"
+        app:layout_constraintRight_toLeftOf="@id/bottom_me"
+        app:layout_constraintBaseline_toBaselineOf="@id/bottom_wechat"
+        />
+    <TextView
+        android:id="@+id/bottom_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/me"
+        android:textSize="25sp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintLeft_toRightOf="@id/bottom_find"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/bottom_wechat"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
